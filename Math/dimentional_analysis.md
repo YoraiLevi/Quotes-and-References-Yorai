@@ -1,3 +1,7 @@
 Q: Is it necessary to non dimensionalize the governing equation before applying the perturbation methods?
 A: Non-dimensionalizing alone may be misleading. If one of your variables is of magnitude 1000 and another one of magnitude 0.001 (before or after non-dimensionalizing does not matter) and perturbing both by an amount of 0.0001 then the effect is essentially that of non-perturbing the first variable, the result does nothing say about this variable. (Here, I assumed that perturbations are by an absolute amount, not a relative one.) So the point is to rescale the variables such a way that all variables have the same magnitude (and the size of perturbation is to be chosen according to the common magnitude). The process of rescaling may also non-dimensionalize the variables.
   Jansen, Wolfgang. (2016). Re: Is it necessary to  non dimensionalize the governing equation before applying the perturbation methods?. Retrieved from: https://www.researchgate.net/post/Is_it_necessary_to_non_dimensionalize_the_governing_equation_before_applying_the_perturbation_methods/5763f8d348954c125a5b1ec5/citation/download. 
+
+Q: Why does non-dimensionalization work?
+A: Basically the idea is that numbers with units must necessarily respond in a simple way when we change our system of units. If, say, I change the basic unit of length to be twice as big, then all numbers with lengthk in their units will get divided by 2k accordingly.
+  https://math.stackexchange.com/questions/1920591/why-does-non-dimensionalization-work
